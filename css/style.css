@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    background: #0066cc;
+    padding: 50px;
+    color: white;
+}
+section {
+    padding: 20px;
+}
+.course-list {
+    display: flex;
+    gap: 10px;
+}
+.course {
+    background: #f0f0f0;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
